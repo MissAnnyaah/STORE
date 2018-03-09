@@ -1,0 +1,179 @@
+@import url("bootstrap.min.css");
+@import url("font-awesome.min.css");
+
+body{
+	margin:0;
+}
+/*#banner{
+    max-width: 100%;
+    height:500px;
+	background-image: url('../img/tachina-lee-42980-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center fixed;
+	background-size: cover;
+}*/
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+#homepage_navbar{
+  background:transparent;
+}
+
+
+#productspage_navbar{
+  background:black;
+}
+
+
+.navbar-default {
+  /*background:transparent;*/
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+}
+
+.navbar-default .navbar-brand {
+    color: oldlace;
+    /*color: black;*/
+    font-size:4em;
+    font-family: 'Tangerine', serif;
+    /*font-family: 'Hanalei'; */  /* display font*/
+   /* font-family: cursive;*/
+   /*text-shadow: 4px 4px 4px #aaa;*/
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size:1em;
+    font-family: 'Cantata One', serif;
+     /*font-family: 'Tangerine', serif;*/
+}
+
+
+
+.navbar-default .navbar-nav>li>a:hover {
+   background-color: white;
+}
+
+
+/*.navbar-inner {
+    background:transparent;
+}*/
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+.headline{
+	text-align: center;
+ font-family: 'Karla', sans-serif;
+ font-size: 20px;
+}
+
+.profile_head{
+  font-family: 'Cantata One', serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center; 
+}
+
+/*#feature_men{
+    max-width: 100%;
+    height:350px;
+    float: left;
+    background-image: url('../img/pexels-photo-355148 (1).jpeg');
+    background-repeat: no-repeat;
+    background-position: center fixed;
+	background-size: cover;
+	
+}
+*/
+/*#feature_women{
+    max-width: 100%;
+    height:350px;
+    float: left;
+    background-image: url('../img/pexels-photo-355148 (1).jpeg');
+    background-repeat: no-repeat;
+    background-position: center fixed;
+	background-size: cover;
+	
+}*/
+
+/*#feature_essentials{
+    max-width: 100%;
+    height:350px;
+    float: left;
+    background-image: url('../img/pexels-photo-355155.jpeg');
+    background-repeat: no-repeat;
+    background-position: center fixed;
+	background-size: cover;
+	
+}*/
+
+
+  body {
+        /*font-family: 'Tangerine', serif;*/
+        /*font-size: 48px;*/
+      }
+
+
+.footer{
+	background-color: #e6e6e6;
+/*  opacity: 0.2;*/
+	width: 100%;
+	float: left;
+  /*color: oldlace;*/
+	color: black;
+	/*background-image: url('../img/pexels-photo-139319 (1).jpeg');*/
+	
+
+
+}
