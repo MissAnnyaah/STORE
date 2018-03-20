@@ -68,11 +68,17 @@ body{
 
 .navbar-default .navbar-nav>li>a {
     color: white;
-    font-size:1em;
-    font-family: 'Cantata One', serif;
+    font-size:1.2em;
+    font-family: 'Karla', sans-serif;
+    /*font-family: 'Cantata One', serif;*/
      /*font-family: 'Tangerine', serif;*/
 }
 
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
 
 
 .navbar-default .navbar-nav>li>a:hover {
